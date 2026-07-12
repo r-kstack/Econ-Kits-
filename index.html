@@ -3,12 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EconKits — Free HSC Economics teaching kits for schools without a specialist</title>
-<meta name="description" content="Complete, free, syllabus-mapped HSC Economics teaching kits designed so any teacher can offer economics — built for regional and rural NSW schools.">
+<title>EconKits — Free HSC Economics teaching kits and quizzes</title>
+<meta name="description" content="Complete, free, syllabus-mapped HSC Economics teaching kits and student quizzes — democratising economics education for all Australian students.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<style>
+.hero-inner{grid-template-columns:1fr;max-width:840px}
+.hero h1{max-width:18ch}
+</style>
 </head>
 <body>
 
@@ -19,6 +23,7 @@
       <ul>
         <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="kits.html">Kits</a></li>
+        <li><a href="students.html">Students</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </nav>
@@ -29,45 +34,13 @@
   <div class="wrap hero-inner">
     <div>
       <span class="mono eyebrow">Free · Syllabus-mapped · No specialist required</span>
-      <h1>Every school can teach economics.</h1>
-      <p class="lede">Complete HSC Economics teaching kits — teacher guides written for non-economists, slides, worksheets, worked solutions and auto-marked quizzes. Free forever, built for regional and rural NSW schools.</p>
+      <h1>Democratising economics education for all Australian students.</h1>
+      <p class="lede">Complete HSC Economics teaching kits — teacher guides written for non-economists, slides, worksheets, worked solutions and auto-marked quizzes. Free forever, for every school and every student.</p>
       <div class="cta-row">
         <a class="btn btn-primary" href="kits.html">Get the kits</a>
-        <a class="btn btn-secondary" href="about.html">Why this exists</a>
+        <a class="btn btn-secondary" href="students.html">I'm a student</a>
       </div>
     </div>
-
-    <figure class="diagram" role="img" aria-label="Economics supply and demand diagram showing the supply curve of economics teaching shifting to the right, increasing access.">
-      <svg viewBox="0 0 440 340" xmlns="http://www.w3.org/2000/svg">
-        <!-- axes -->
-        <line x1="52" y1="20" x2="52" y2="292" stroke="#16243d" stroke-width="2"/>
-        <line x1="52" y1="292" x2="418" y2="292" stroke="#16243d" stroke-width="2"/>
-        <text x="30" y="30" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16243d">P</text>
-        <text x="400" y="316" font-family="IBM Plex Mono, monospace" font-size="13" fill="#16243d">Q access</text>
-        <!-- demand curve -->
-        <path d="M 80 50 L 380 262" stroke="#c33d2e" stroke-width="2.5" fill="none"/>
-        <text x="384" y="258" font-family="IBM Plex Mono, monospace" font-size="12" fill="#c33d2e">D</text>
-        <!-- supply 1 -->
-        <path d="M 80 262 L 300 50" stroke="#1f5fa8" stroke-width="2.5" fill="none"/>
-        <text x="288" y="42" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1f5fa8">S1</text>
-        <!-- supply 2 (shifted right) -->
-        <path d="M 168 262 L 388 50" stroke="#1f5fa8" stroke-width="2.5" stroke-dasharray="7 6" fill="none"/>
-        <text x="392" y="46" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1f5fa8">S2</text>
-        <!-- shift arrow -->
-        <line x1="216" y1="150" x2="268" y2="150" stroke="#16243d" stroke-width="1.6"/>
-        <polygon points="268,150 258,145 258,155" fill="#16243d"/>
-        <!-- equilibria -->
-        <circle cx="190" cy="156" r="4.5" fill="#16243d"/>
-        <circle cx="252" cy="171" r="4.5" fill="#16243d" stroke="#fbfaf6" stroke-width="1.5"/>
-        <line x1="252" y1="171" x2="252" y2="292" stroke="#16243d" stroke-width="1" stroke-dasharray="3 4"/>
-        <line x1="190" y1="156" x2="190" y2="292" stroke="#16243d" stroke-width="1" stroke-dasharray="3 4"/>
-        <text x="176" y="308" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5c6270">Q1</text>
-        <text x="242" y="308" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5c6270">Q2</text>
-        <!-- label -->
-        <text x="118" y="140" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5c6270">teaching capacity ↑</text>
-      </svg>
-      <figcaption>Fig. 1 — EconKits shifts the supply curve of economics teaching. More schools offering the subject; more students with access.</figcaption>
-    </figure>
   </div>
 </div>
 
@@ -76,7 +49,7 @@
     <span class="mono section-label">The evidence</span>
     <h2>Economics has become a subject of postcode.</h2>
     <div class="body">
-      <p>Three decades ago, economics was the third most popular HSC subject in NSW. Today it has largely disappeared from the comprehensive and regional schools most students attend — not because students won't choose it, but because schools can't staff it.</p>
+      <p>Three decades ago, economics was the third most popular HSC subject in NSW. Since then, Year 12 enrolments have fallen by around three quarters — and access has narrowed to a small set of schools. Reserve Bank of Australia research points to a supply-side cause: too few teachers equipped to teach economics, so schools stop offering it, and students never discover the subject.</p>
     </div>
     <div class="figures">
       <div class="figure">
@@ -85,8 +58,8 @@
         <span class="src">RBA, Dwyer (2017)</span>
       </div>
       <div class="figure">
-        <div class="stat">Low-SES &amp; regional</div>
-        <p>Where the decline has been steepest — enrolments have held up mainly in high-SES and selective metropolitan schools.</p>
+        <div class="stat">Uneven</div>
+        <p>The decline has hit some school communities far harder than others, concentrating the subject in a handful of schools.</p>
         <span class="src">RBA submission to NSW Curriculum Review (2018)</span>
       </div>
       <div class="figure">
@@ -109,7 +82,7 @@
       </div>
       <div class="step">
         <h3>Teach it</h3>
-        <p>Lesson-by-lesson sequences with pacing, Australian examples, and misconception warnings — designed for business studies and HSIE teachers stepping across.</p>
+        <p>Lesson-by-lesson sequences with pacing, current Australian examples, and misconception warnings — designed for teachers stepping across from other subjects.</p>
       </div>
       <div class="step">
         <h3>Tell us what worked</h3>
@@ -119,10 +92,23 @@
   </div>
 </section>
 
+<section id="students">
+  <div class="wrap">
+    <span class="mono section-label">For students</span>
+    <h2>Studying economics on your own? Start here.</h2>
+    <div class="body">
+      <p>Whether your school runs economics or you're tackling it solo, the student page has syllabus-mapped quizzes you can take right now — instant marking, no account needed — with study notes and past-paper walkthroughs on the way.</p>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="students.html">Go to student quizzes</a>
+    </div>
+  </div>
+</section>
+
 <section id="cta">
   <div class="wrap">
     <span class="mono section-label">For schools</span>
-    <h2>Piloting now with regional NSW schools.</h2>
+    <h2>Piloting now with Australian schools.</h2>
     <div class="body">
       <p>If your school doesn't currently offer economics — or offers it with a teacher working outside their specialism — the first kit is ready to use today. Feedback from pilot schools decides which topics come next.</p>
     </div>
@@ -135,10 +121,11 @@
 
 <footer>
   <div class="wrap">
-    <div>EconKits — free economics teaching resources for Australian schools.<br>Materials licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.</div>
-    <div><a href="about.html#contact">Contact</a> · <a href="https://github.com/">GitHub</a></div>
+    <div>EconKits — free economics education for all Australian students.<br>Materials licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.</div>
+    <div><a href="about.html#contact">Contact</a> · <a href="https://github.com/r-kstack/Econ-Kits-">GitHub</a></div>
   </div>
 </footer>
 
 </body>
 </html>
+
